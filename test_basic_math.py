@@ -172,8 +172,4 @@ class TestBasicMath(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    t = TestBasicMath()
-    t.test_get_greatest()
-    t.test_get_smallest()
-    t.test_get_mean()
-    t.test_get_median()
+    unittest.main()
